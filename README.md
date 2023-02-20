@@ -1,6 +1,6 @@
 # GEMAFNE: A ***Ge***netic Algorithm Framework for Permanent *F*ault-Tolerant ***Ma***pping Scalable ***Ne***uromorphic Systems
 
-    The source code will be released up one the acceptance of the paper.
+    The source code will be released once the paper is accepted.
 
 ## Dependencies
 
