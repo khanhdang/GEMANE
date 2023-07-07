@@ -1,4 +1,4 @@
-# GEMAFNE: A ***Ge***netic Algorithm Framework for Permanent *F*ault-Tolerant ***Ma***pping Scalable ***Ne***uromorphic Systems
+# GEMAFNE:  Mapping SNN into Heterogeneous NoC-based Systems with Genetic Algorithm
 
     The source code will be released once the paper is accepted.
 
