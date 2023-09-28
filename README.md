@@ -1,4 +1,4 @@
-# HeterGenMap:  An Evolution Mapping Framework for Heterogeneous NoC-based Neuromorphic Systems
+# HeterGenMap:  An Evolutionary Mapping Framework for Heterogeneous NoC-based Neuromorphic Systems
 
     The source code will be released once the paper is accepted.
 
