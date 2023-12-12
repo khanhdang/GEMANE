@@ -23,9 +23,24 @@ In general, the HeterGenMap has very few dependencies:
 The source came with a pre-defined set of `slink` (links between chips). Please check out [HeterGenMap/SystemX.py](HeterGenMap/SystemX.py) from line 43-149.
 The cost of `slink` can be adjusted.
 
+For instance, the following snippet indicates the special links between two chips of (2x2x2) connected to form a 2x2x4 system.
+
+
+```
+        if (self.system_dim.Z == 2 and self.system_dim.Y == 2  and self.system_dim.X == 4 ):
+            self.list_of_slinks = [Link(Coordinate(0,0,1), Coordinate(0,0,2)), \
+                                    Link(Coordinate(0,1,1), Coordinate(0,1,2)),\
+                                    Link(Coordinate(1,0,1), Coordinate(1,0,2)), \
+                                    Link(Coordinate(1,1,1), Coordinate(1,1,2)) ]
+```
+
+
+
 ### Fault-tolerance
 
-The forbidden (faulty and cannot be used for routing) paths can be adjusted in  [HeterGenMap/SystemX.py](HeterGenMap/SystemX.py) at the function `gen_defected_links`
+The forbidden (faulty and cannot be used for routing) paths can be adjusted in  [HeterGenMap/SystemX.py](HeterGenMap/SystemX.py) at the function `gen_defected_links`.
+This function will generate randomized faulty links inside the system.
+Note: If the fault rate is high, there is a chance of generating an isolated area that cannot be routed to even with non-minimal routing.
 
 
 ## Contact
