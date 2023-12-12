@@ -9,3 +9,8 @@ In general, the HeterGenMap has very few dependencies:
 - Python (3.6 or higher)
 - deap: [https://deap.readthedocs.io/en/master/](https://deap.readthedocs.io/en/master/)
 
+## Examples
+
+- [GA_map_deap_noFT.py](GA_map_deap_noFT.py): mapping for no fault-tolerance.
+- [GA_map_deap_FT.py](GA_map_deap_FT.py): mapping for no fault-tolerance.
+- [GA_map_deap_MC.py](GA_map_deap_MC.py): mapping for multi-chip system.
