@@ -25,7 +25,7 @@ The cost of `slink` can be adjusted.
 
 ### Fault-tolerance
 
-The forbidden (faulty and cannot be used for routing) paths can be adjusted in  [HeterGenMap/SystemX.py](HeterGenMap/SystemX.py) at function `gen_defected_links`
+The forbidden (faulty and cannot be used for routing) paths can be adjusted in  [HeterGenMap/SystemX.py](HeterGenMap/SystemX.py) at the function `gen_defected_links`
 
 
 ## Contact
