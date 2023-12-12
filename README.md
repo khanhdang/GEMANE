@@ -34,6 +34,10 @@ For instance, the following snippet indicates the special links between two chip
                                     Link(Coordinate(1,1,1), Coordinate(1,1,2)) ]
 ```
 
+To change the cost of `slink` of a system `s`: 
+```
+s.slink_cost = value_that_you_want
+```
 
 
 ### Fault-tolerance
