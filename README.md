@@ -1,6 +1,6 @@
 # HeterGenMap:  An Evolutionary Mapping Framework for Heterogeneous NoC-based Neuromorphic Systems
 
-Source code for the paper: Khanh N. Dang, Nguyen Anh Vu Doan, Ngo-Doanh Nguyen, Abderazek Ben Abdallah, ''HeterGenMap: An Evolutionary Mapping Framework for Heterogeneous NoC-based Neuromorphic Systems'', IEEE Access, (accepted), 2023.
+Source code for the paper: Khanh N. Dang, Nguyen Anh Vu Doan, Ngo-Doanh Nguyen, Abderazek Ben Abdallah, ''HeterGenMap: An Evolutionary Mapping Framework for Heterogeneous NoC-based Neuromorphic Systems'', IEEE Access, (accepted), 2023. \[[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10366249)\]
 
 ## Dependencies
 
