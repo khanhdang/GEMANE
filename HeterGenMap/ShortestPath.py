@@ -23,7 +23,7 @@ class ShortestPath():
 		dist[src] = 0
 		S = [False] * self.vertices
 
-		for cout in range(self.S):
+		for _ in range(self.vertices):
 
 			u = self.minDist(dist, S)
 
