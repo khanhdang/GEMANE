@@ -110,8 +110,6 @@ GA_cost, GA_dist = TG.CommCostMLP(s)
 print("cost: "+str(GA_cost))
 
 
-s.gen_RTL_simul_conf(TG, "conf/in_conf/test-2", "conf/out_conf/test-2")
-
 
 print(">> Perform Linear")
 
