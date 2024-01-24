@@ -12,7 +12,7 @@ In general, the HeterGenMap has very few dependencies:
 ## Examples
 
 - [GA_map_deap_noFT.py](GA_map_deap_noFT.py): mapping for no fault-tolerance. [Google Collab](https://colab.research.google.com/drive/1KAuu-4VKoFIajKKvcdWMlc8g8wBRMmB3?usp=sharing)
-- [GA_map_deap_FT.py](GA_map_deap_FT.py): mapping for with fault-tolerance.  [Google Collab](https://colab.research.google.com/drive/1C9W8oRPbxi7NqIPawyb3EBWi3ex_KscT?usp=sharing)
+- [GA_map_deap_FT.py](GA_map_deap_FT.py): mapping for with fault-tolerance.  [Google Collab](https://colab.research.google.com/drive/1C9W8oRPbxi7NqIPawyb3EBWi3ex_KscT?usp=sharing) (Note: under high fault-rate, routing can be blocked (there are isolated nodes)which crash the GA process).
 - [GA_map_deap_MC.py](GA_map_deap_MC.py): mapping for multi-chip system. [Google Collab](https://colab.research.google.com/drive/1bPidpoPtGOssBShiS8JYHhcS31HcCIQY?usp=sharing)
 
 
